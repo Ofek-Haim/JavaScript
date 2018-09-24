@@ -10,4 +10,4 @@ This repository include subjects in JavaScript language
 * First steps
 * Variables
 * Operators
-
+* Functions
