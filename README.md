@@ -11,3 +11,4 @@ This repository include subjects in JavaScript language
 * Variables
 * Operators
 * Functions
+* Conditionals
