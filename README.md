@@ -9,3 +9,5 @@ This repository include subjects in JavaScript language
 * Introduction
 * First steps
 * Variables
+* Operators
+
