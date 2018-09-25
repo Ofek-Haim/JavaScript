@@ -12,3 +12,4 @@ This repository include subjects in JavaScript language
 * Operators
 * Functions
 * Conditionals
+* Loops
