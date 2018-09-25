@@ -13,3 +13,4 @@ This repository include subjects in JavaScript language
 * Functions
 * Conditionals
 * Loops
+* Boolean object
