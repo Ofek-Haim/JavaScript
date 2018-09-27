@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>String object</title>
+</head>
+<body>
+  <h1>String object</h1>
+  <script type="text/javascript">
+  	function brakeLine()
+  	{
+  		document.write("<br>")
+  	}
+    myString = new String("this is a string!")
+    text = "this is a string!"
+    document.write(myString); brakeLine();
+    document.write(text); brakeLine();
+    document.write("The len of myString is: " + myString.length); brakeLine();
+    document.write(myString.indexOf("5")); brakeLine();
+    document.write(myString.indexOf("is ")); brakeLine();
+    document.write(myString.indexOf("t")); brakeLine();
+    document.write(myString.indexOf("i")); brakeLine();
+    document.write(myString.lastIndexOf("i")); brakeLine();
+    document.write(myString.substr(1,3)); brakeLine();
+    document.write(myString.substring(1,3)); brakeLine();
+    document.write(myString.toLowerCase()); brakeLine();
+    document.write(myString.toUpperCase(1,3)); brakeLine();
+  </script>
+</body>
+</html>
