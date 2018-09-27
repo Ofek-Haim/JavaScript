@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Date object</title>
+</head>
+<body>
+  <h1>Date object</h1>
+  <script type="text/javascript">
+    function brakeLine()
+    {
+      document.write("<br>")
+    }
+    myDate = new Date()
+    noMyDate = new Date("3/19/1989 12:35:01")
+    document.write(myDate.getDate()); brakeLine(); // 1 - 31
+    document.write(myDate.getDay()); brakeLine(); // 0 - 6
+    document.write(myDate.getMonth()); brakeLine(); // 0 - 11
+    document.write(myDate.getFullYear()); brakeLine(); // Ex: 2018
+    document.write(myDate.getHours()); brakeLine(); // 0 - 23
+    document.write(myDate.getMinutes()); brakeLine(); // 0 - 59
+    document.write(myDate.getSeconds()); brakeLine(); // 0 - 59                       
+  </script>
+</body>
+</html>
