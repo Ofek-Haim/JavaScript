@@ -16,3 +16,4 @@ This repository include subjects in JavaScript language
 * Boolean object
 * Array object
 * String object
+* Math object
