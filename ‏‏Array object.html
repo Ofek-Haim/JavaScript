@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>‏‏Array object</title>
+</head>
+<body>
+  <h1>‏‏Array object</h1>
+  <script type="text/javascript">
+  	function brakeLine()
+  	{
+  		document.write("<br>")
+  	}
+    carManufacturers = new Array(5)
+    carManufacturers[0]="Renault"  
+    carManufacturers[1]="Mitsubishi"  
+    carManufacturers[2]="Mercedes"  
+    carManufacturers[3]="BMW"  
+    carManufacturers[4]="Toyota"
+    document.write(carManufacturers[0]);
+    brakeLine();
+    document.write(carManufacturers[1]);
+    brakeLine();
+    document.write(carManufacturers[2]);
+    brakeLine();
+    document.write(carManufacturers[3]);
+    brakeLine();
+    document.write(carManufacturers[4]);
+    brakeLine();
+    animals = new Array()
+    animals[0]="dog"
+    animals[1]="cat" 
+    animals[2]="fish" 
+    animals[3]="elephant" 
+    animals[4]="parrot"
+    animals[5]="dingo"
+    animals[10] = "giraffe"
+    document.write("++++++++++++++++"); brakeLine();
+    document.write(animals[9]);
+    brakeLine();
+    document.write(animals[10]);
+    brakeLine();
+    document.write("++++++++++++++++"); brakeLine();
+    carManufacturersLength = carManufacturers.length
+    document.write("carManufacturersLength = " + carManufacturersLength);
+    brakeLine();
+    document.write("++++++++++++++++"); brakeLine();
+    carManufacturersReversed = new Array()
+    carManufacturersReversed = carManufacturers.reverse()
+    document.write(carManufacturersReversed[0]);
+    brakeLine();
+    document.write(carManufacturersReversed[1]);
+    brakeLine();
+    document.write(carManufacturersReversed[2]);
+    brakeLine();
+    document.write(carManufacturersReversed[3]);
+    brakeLine();
+    document.write(carManufacturersReversed[4]);
+    brakeLine();
+    var numbers = new Array(10);
+    numbers = [1,6,5,4,7,8,9,6,2,0];
+    document.write(numbers);
+    brakeLine();
+    document.write(numbers.sort());
+
+  </script>
+</body>
+</html>
