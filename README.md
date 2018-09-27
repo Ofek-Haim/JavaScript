@@ -17,3 +17,4 @@ This repository include subjects in JavaScript language
 * Array object
 * String object
 * Math object
+* Date object
