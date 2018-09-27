@@ -15,3 +15,4 @@ This repository include subjects in JavaScript language
 * Loops
 * Boolean object
 * Array object
+* String object
