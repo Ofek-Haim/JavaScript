@@ -22,3 +22,4 @@ This repository include subjects in JavaScript language
 
 ## Appendices
 * Include js file in html
+* Happy Birthday
