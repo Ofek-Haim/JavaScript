@@ -18,3 +18,4 @@ This repository include subjects in JavaScript language
 * String object
 * Math object
 * Date object
+* User object
