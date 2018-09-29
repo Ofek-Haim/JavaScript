@@ -19,3 +19,6 @@ This repository include subjects in JavaScript language
 * Math object
 * Date object
 * User object
+
+## Appendices
+* Include js file in html
