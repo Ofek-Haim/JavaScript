@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>User object</title>
+</head>
+<body>
+  <h1>User object</h1>
+  <script type="text/javascript">
+    function brakeLine()
+    {
+      document.write("<br>")
+    }
+    function myFunction(number = 70)
+    { 
+      this.number = number 
+      this.StringValue = "myFunction string"
+      this.rerutnNumber = rerutnNumber;
+      this.incNumber = incNumber;
+    }
+    function rerutnNumber()
+    {
+      return(this.number);
+    }
+    function incNumber(incer)
+    {
+      this.number += incer;
+    }
+    myObject = new myFunction(50);
+    document.write(myObject.StringValue); brakeLine();
+    myObject.StringValue = "Ofek Haim"
+    document.write(myObject.StringValue); brakeLine();
+    document.write(myObject.number); brakeLine();
+    document.write("rerutnNumber() = " + myObject.rerutnNumber()); brakeLine();
+    myObject.incNumber(8);
+    document.write("rerutnNumber() = " + myObject.rerutnNumber()); brakeLine();
+    myObject.incNumber(2);
+    document.write("rerutnNumber() = " + myObject.rerutnNumber()); brakeLine();
+    myObject.incNumber(0.5);
+    document.write("rerutnNumber() = " + myObject.rerutnNumber()); brakeLine();  
+  </script>
+</body>
+</html>
